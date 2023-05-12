@@ -1,0 +1,17 @@
+print("╔════════════════════════════════════════╗")
+print("║  Task 1 - Computacional Linear Algebra ║")
+print("║        Professor: Luis Sagrilo         ║")
+print("║ Student: Lucas Tavares Da S. Ferreira  ║")
+print("║              DRE: 120152739            ║")
+print("║                  2023.1                ║")
+print("╠════════════════════════════════════════╣")
+print("║                                        ║")
+print("║      Welcome to my program, Tchê!      ║")
+print("║                                        ║")
+print("╚════════════════════════════════════════╝")
+
+for part in ['1', '2']:
+  print ("\n                Part {}\n".format(part.upper()))
+  print ("*******************************************")
+  exec ("import part{}".format(part))
+  print ("*******************************************")
